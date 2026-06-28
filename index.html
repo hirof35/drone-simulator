@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>TypeScript Drone Simulator</title>
+  <style>
+    body { margin: 0; background: #222; display: flex; justify-content: center; align-items: center; height: 100vh; color: white; font-family: sans-serif; flex-direction: column; }
+    canvas { border: 2px solid #444; background: #111; }
+    .controls { margin-top: 10px; text-align: center; }
+  </style>
+</head>
+<body>
+  <canvas id="stage" width="600" height="400"></canvas>
+  <div class="controls">操作: 矢印キー [↑] 推力 / [←][→] 傾き</div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
